@@ -142,35 +142,13 @@ JSP (UI) → Servlet (Controller) → DAO → Hibernate → MySQL
 
 ---
 
-## ⚠️ Common Issues
+* ✔️ Fully implemented **Hibernate Relationships**:
 
-### ❌ CSS not loading
+  * One-to-One (Person ↔ Passport)
+  * One-to-Many (Department → Employees)
+  * Many-to-Many (Student ↔ Course)
 
-* Ensure path:
 
-  ```
-  /css/style.css
-  ```
-
-### ❌ jakarta vs javax error
-
-* Use **Tomcat 10 + jakarta imports**
-* Ensure Dynamic Web Module is 5.0+
-
-### ❌ Database connection error
-
-* Check MySQL is running
-* Verify username/password
-
----
-
-## 📌 Notes
-
-* Uses **Hibernate SessionFactory (manual configuration)**
-* No Spring Boot (pure Hibernate learning project)
-* Good foundation for moving into Spring
-
----
 
 ## 🙌 Author
 

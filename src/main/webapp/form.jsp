@@ -1,10 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
     <title>Create User</title>
-
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
 </head>
 <body>
@@ -35,7 +32,12 @@
 
         </form>
 
+        <div class="link">
+            <a href="user">← Back to List</a>
+        </div>
+
     </div>
 </div>
+
 </body>
 </html>

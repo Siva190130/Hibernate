@@ -24,10 +24,16 @@
         <property name="hibernate.format_sql">true</property>
 
         <!-- Auto Table Creation -->
-        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.hbm2ddl.auto">create</property>
 
         <!-- Annotated Class -->
         <mapping class="com.shiv.model.User"/>
+        <mapping class="com.shiv.model.Person"/>
+		<mapping class="com.shiv.model.Passport"/>
+		<mapping class="com.shiv.model.Department"/>
+		<mapping class="com.shiv.model.Employee"/>
+		<mapping class="com.shiv.model.Student"/>
+		<mapping class="com.shiv.model.Course"/>
 
     </session-factory>
 </hibernate-configuration>

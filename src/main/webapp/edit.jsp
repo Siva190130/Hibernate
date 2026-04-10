@@ -11,7 +11,7 @@ User u = (User) request.getAttribute("user");
 </head>
 <body>
 
-<div class="container">
+<div class="wrapper">
     <div class="card">
 
         <h2>Edit User</h2>
